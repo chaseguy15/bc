@@ -8,6 +8,12 @@ mod yours;
 use self::obj::*;
 use self::yours::*;
 
+struct Algorithm {
+    wp: Waypoint,
+    plane: Plane,
+    obs: obstacle,
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
