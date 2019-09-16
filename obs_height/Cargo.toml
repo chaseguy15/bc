@@ -1,0 +1,6 @@
+[package]
+name = "obs_height"
+version = "0.1.0"
+authors = ["Chaseguy15 <chase.aerospace@utexas.edu>"]
+
+[dependencies]
