@@ -28,3 +28,16 @@ This is the standard formula for pushing all local changes to the origin. "add" 
 `$ git add myfile.rs`
 
 "commit" can be thought of as a save feature, moving all of the staged changes into the local commit history. This updates the local repo to show the staged changes. Finally, "push" is used to merge the local repo into the origin. This effectively publishes your work, making your origin up to date with your latest local commit.
+
+## Branching
+
+To add a new branch to your local repo and to remote, use this:
+```bash
+$ git checkouut -b branch_name
+$ git push -u origin branch_name
+```
+
+to switch to a new branch on the origin, use this:
+```bash
+$ git 
+```
