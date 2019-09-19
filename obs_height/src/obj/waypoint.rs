@@ -1,6 +1,6 @@
 use super::Location;
 
-struct Waypoint<T> { // NOTE: when you call a Waypoint you have to enter a dummy T of any type
+pub struct Waypoint<T> { // NOTE: when you call a Waypoint you have to enter a dummy T of any type
     loc: Location,
     data: Option<T>,
 }

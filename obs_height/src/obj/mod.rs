@@ -1,9 +1,11 @@
-mod location;
-mod waypoint;
-mod obstacle;
-mod plane;
+pub mod location;
+pub mod waypoint;
+pub mod obstacle;
+pub mod plane;
+pub mod point;
 
-use self::location::*;
-use self::waypoint::*;
-use self::obstacle::*;
-use self::plane::*;
+pub use self::location::*;
+pub use self::waypoint::*;
+pub use self::obstacle::*;
+pub use self::plane::*;
+pub use self::point::*;

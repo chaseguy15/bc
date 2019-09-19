@@ -1,6 +1,6 @@
 use super::location::*;
 
-struct Obstacle {
+pub struct Obstacle {
     loc: Location,
     radius: f32,
 }
