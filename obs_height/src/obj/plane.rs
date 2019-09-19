@@ -1,12 +1,12 @@
 use super::Location;
 
-struct Plane<T> { // NOTE: when you call a Plane you have to enter a dummy T of any type
-    loc: Location,
+pub struct Plane<T> { // NOTE: when you call a Plane you have to enter a dummy T of any type
+    pub loc: Location,
     data: Option<T>,
 }
 
 impl<T> Plane<T> {
-    fn new(loc: Location) -> Self {
+    pub fn new(loc: Location) -> Self {
         Self {
             loc,
         data: None,

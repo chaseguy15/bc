@@ -1,8 +1,8 @@
 use super::location::*;
 
-struct Obstacle {
-    loc: Location,
-    radius: f32,
+pub struct Obstacle {
+    pub loc: Location,
+    pub radius: f32,
 }
 
 impl Obstacle {

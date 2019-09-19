@@ -1,12 +1,12 @@
 use super::Location;
 
-struct Waypoint<T> { // NOTE: when you call a Waypoint you have to enter a dummy T of any type
-    loc: Location,
+pub struct Waypoint<T> { // NOTE: when you call a Waypoint you have to enter a dummy T of any type
+    pub loc: Location,
     data: Option<T>,
 }
 
 impl<T> Waypoint<T> {
-    fn new(loc: Location) -> Self {
+    pub fn new(loc: Location) -> Self {
         Self {
             loc,
             data: None,

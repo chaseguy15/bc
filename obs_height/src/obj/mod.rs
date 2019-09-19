@@ -1,7 +1,7 @@
-mod location;
-mod waypoint;
-mod obstacle;
-mod plane;
+pub mod location;
+pub mod waypoint;
+pub mod obstacle;
+pub mod plane;
 
 use self::location::*;
 use self::waypoint::*;
